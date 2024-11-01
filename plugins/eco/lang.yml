@@ -1,0 +1,9 @@
+multiple-in-craft: '&l&c! &fEsta receta requiere &a%amount%&f de este artículo.'
+
+# Specify default display names for prices made through ConfiguredPrice#create
+# These will override any custom configured price display names.
+# You can use %value% and %value_commas% as placeholders.
+price-display:
+  - type: example_type
+    display: "&e%value% Precio"
+    

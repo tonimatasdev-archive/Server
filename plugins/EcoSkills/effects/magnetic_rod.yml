@@ -1,0 +1,10 @@
+name: "Varilla Magnética"
+placeholder: "4 * %level%"
+description: "&8Las cañas de pescar atraen gotas y entidades &a%placeholder%%&8 más rápido"
+
+effects:
+  - id: reel_speed_multiplier
+    args:
+      multiplier: "1 + (%level% * 0.04)"
+
+conditions: [ ]

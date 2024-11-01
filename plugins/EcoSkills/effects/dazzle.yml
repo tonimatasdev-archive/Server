@@ -1,0 +1,17 @@
+name: "Deslumbrar"
+placeholders:
+  chance: "%level% * 1.5"
+  seconds: "(18 % %level% * 2) / 20"
+description: "&a%chance%%&8 de causar náuseas a tu oponente durante &a%seconds%&8 segundos"
+
+effects:
+  - id: potion_effect
+    args:
+      chance: "1.5 * %level%"
+      effect: confusion
+      level: 3
+      duration: "18 + %level% * 2"
+    triggers:
+      - mine_block
+
+conditions: [ ]

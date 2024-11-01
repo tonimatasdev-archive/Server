@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcyODIyODMxMjMyNywKICAicHJvZmlsZUlkIiA6ICIzZDc1MmVkNmFhMmI0NjE2OWI3MmQ0M2M3ZjI5MGVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnVzYWRlcl9NYWMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI0NjQ2MTM0ZTljMmQzYTIwNDM5OGE2Mjk5ZjM0OTRiOGE4ZjI5Y2YwNTA1NjI5NGE0OGM0MGVmN2VlYTZlYyIKICAgIH0KICB9Cn0=",
+    "signature": "DBFJinPTSvWG1rWXESwdvfsnx/kbmABhik+ksf68p0nvxhB04P9hS9do8GvzA2HJ6wXp0nHIozz5TEqdAV75ucpfPzH7k+9UTrR+uiBGQ5zMGeNOyYjsyQIy6ZwDQjhjsHzg5xRN5gNCoq04aXQwHFhzqT+sWis/1X8Y4QDFJBNGVCBQhrD8AZAEd4T1F9DzeRxdTMVIlCm/PreHKRGgP/A2VPeKEmxIQsJg6Fu+id3P6KULA1GQQFQ2INKtAy1LhGw8agMFaw4eqNRBGVgkW0hfzR2j5omGSV7HZL6dHkFkUIATU3sR/NCRwpTuq7dBvfHkxukIUVwB4sk8DVmxn6CyZ8Pt8d376EnNUsYusLNtOS2/3BBZIlGwzuXKOq690SZwwZSf0KHiUwiUJA0AZVWCk/QGe798pRrt7EYLXZffyaA6BiRUW86SN1UzYYX1y0QixmWOWXccpYRRPqZiGFHt0cjKSsQsIsoaN5qWzowredjgWXDkX293GLr/7CjCACAUcTnbEz+WfhDv0WEwBu+ns5DO1GAJhejXbj1pjzEgkbkeIcb15ySm4deS/M4BRyraiU5Px3M7dY0cxAcJBlgXrb3WMc35WT1RTfFIfoXZVFbLxNS1ENqNs2ty5jO6Eo6xIFW2YZUq/KvrfZ2WMX1qivT7pU7iBAVlVw4sgI4=",
+    "skinName": "Crusader_Mac",
+    "location": {
+      "world": "world",
+      "x": 2.5,
+      "y": 63.0,
+      "z": -2.5,
+      "yaw": 50.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "Puedes usar &l&4/spawn&r para volver.",
+      "Recursos"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "mvtp %player_name% recursos",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "mvtp %player_name% recursos",
+        "delay": 0
+      },
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "spreadplayers 0 0 10000 100000 true %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]

@@ -1,0 +1,1 @@
+# It is the server config of LiteFun

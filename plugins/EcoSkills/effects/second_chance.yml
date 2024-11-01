@@ -1,0 +1,17 @@
+name: "Segunda Oportunidad"
+placeholder: "%level% * 0.1"
+description: "&8Los ítems tienen un &a%placeholder%%&8 de probabilidad de repararse instantáneamente cuando su durabilidad está por debajo de &a30&8"
+
+effects:
+  - id: repair_item
+    args:
+      # Esto seguirá una distribución binomial donde la cantidad de intentos es la verificación de durabilidad (30 por defecto, ver arriba)
+      # Dado que esta probabilidad se llamará muchas veces, sería mejor que sea baja.
+      chance: "%level% * 0.1"
+      damage: 100000 # Gran número para reparar completamente
+    filters:
+      item_durability_below: 30
+    triggers:
+      - damage_item
+
+conditions: [ ]
