@@ -1,0 +1,10 @@
+name: "Saciación"
+placeholder: "%level% * 2"
+description: "&8Pierde &a%placeholder%%&8 menos hambre"
+
+effects:
+  - id: hunger_multiplier
+    args:
+      multiplier: "1 - (%level% * 0.02)"
+
+conditions: [ ]

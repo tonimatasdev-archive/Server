@@ -1,0 +1,14 @@
+name: "Valentía"
+placeholder: "%level% * 1.5"
+description: "&8Recibe &a%placeholder%%&8 menos daño de los jefes"
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 - (%level% * 0.015)"
+    triggers:
+      - take_entity_damage
+    filters:
+      is_boss: true
+
+conditions: [ ]

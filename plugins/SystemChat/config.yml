@@ -1,0 +1,9 @@
+# Should we spoof the servers enforce-secure-profile state?
+# This prevents the annoying popup when you join.
+spoof secure server: true
+
+# If SystemChat fails to attach its network handler to a player, should the exception be logged?
+log network attachment exceptions: true
+
+# No Touchy
+config version: 1.1

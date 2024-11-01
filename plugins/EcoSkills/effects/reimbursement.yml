@@ -1,0 +1,10 @@
+name: "Reembolso"
+placeholder: "%level% * 0.5"
+description: "&a%placeholder%%&8 de probabilidad de recuperar experiencia después de encantar"
+
+effects:
+  - id: dont_consume_xp_chance
+    args:
+      chance: "%level% * 0.5"
+
+conditions: [ ]

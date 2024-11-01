@@ -1,0 +1,12 @@
+name: "Esquivar"
+placeholder: "%level% * 0.5"
+description: "&a%placeholder%%&8 de probabilidad de ignorar el daño entrante"
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "%level% * 0.5"
+    triggers:
+      - take_damage
+
+conditions: [ ]

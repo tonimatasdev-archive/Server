@@ -1,0 +1,45 @@
+messages:
+  prefix: "&7[&d&lLite&5&lFun&7] &r"
+  no-permission: "&c¡No tienes permiso para hacer esto!"
+  not-player: "&c¡Este comando debe ser ejecutado por un jugador!"
+  invalid-command: "&c¡Subcomando desconocido!"
+  reloaded: "¡Recargado!"
+
+  invalid-player: "&c¡Jugador inválido!"
+  invalid-skill: "&c¡Habilidad inválida!"
+  reset-player: "&f¡Reiniciar jugador!"
+  recounted-player: "&f¡Recontado jugador!"
+  invalid-skill-stat: "&c¡Habilidad o estadística inválida!"
+  invalid-amount: "&c¡Cantidad inválida!"
+  gave-skill-xp: "¡Dio a %player% %amount% %obj% experiencia!"
+  set-skill-level: "¡Estableció el nivel de %player% %obj% a %amount%!"
+  gave-stat: "¡Dio a %player% %amount% %obj%&r!"
+  set-stat: "¡Estableció %player% %obj% a %amount%!"
+  enabled-actionbar: "&f¡Has &aactivado &fla barra de acción!"
+  disabled-actionbar: "&f¡Has &cdesactivado &fla barra de acción!"
+  enabled-xp-gain-sound: "&f¡Has &aactivado &flos sonidos de ganancia de XP!"
+  disabled-xp-gain-sound: "&f¡Has &cdesactivado &flos sonidos de ganancia de XP!"
+  actionbar-disabled: "&cLa barra de acción está desactivada en este servidor."
+  resetting-all-players: "&fReiniciando a todos los jugadores... (esto puede tardar un poco)"
+  reset-all-players: "&f¡Reiniciar a todos los jugadores!"
+  recounting-all-players: "&fRecontando a todos los jugadores... (esto puede tardar un poco)"
+  recounted-all-players: "&f¡Recontados todos los jugadores!"
+
+learning-skill: "Aprendiendo Nueva Habilidad..."
+
+line-wrap-color: "&8"
+
+top-line-format: "%rank%. %player% - %level%"
+top:
+  empty-position: "&cN/D"
+  format:
+    - "---- Tabla de Clasificación de Habilidades ----"
+    - "%lines%"
+
+menu:
+  title: "Tus Habilidades"
+
+stats-gui:
+  title: "Tus Estadísticas"
+
+infinity: "∞"

@@ -1,0 +1,10 @@
+name: "Elaboración Eficiente"
+placeholder: "%level% * 1.5"
+description: "&8Las pociones tardan &a%placeholder%%&8 menos tiempo en elaborarse"
+
+effects:
+  - id: brew_time_multiplier
+    args:
+      multiplier: "1 - (%level% * 0.015)"
+
+conditions: [ ]

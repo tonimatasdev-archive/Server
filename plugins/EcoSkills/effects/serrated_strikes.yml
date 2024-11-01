@@ -1,0 +1,15 @@
+name: "Golpes Serrados"
+placeholder: "%level% * 2"
+description: "&a%placeholder%%&8 de probabilidad de hacer que tu oponente sangre"
+
+effects:
+  - id: bleed
+    args:
+      chance: "%level% * 2"
+      damage: 2
+      amount: 4
+      interval: 15
+    triggers:
+      - melee_attack
+
+conditions: [ ]

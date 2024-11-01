@@ -1,0 +1,10 @@
+name: "Maestro de Pociones"
+placeholder: "%level% * 4"
+description: "&8Las pociones elaboradas duran &a%placeholder%%&8 más"
+
+effects:
+  - id: potion_duration_multiplier
+    args:
+      multiplier: "1 + (%level% * 0.04)"
+
+conditions: [ ]

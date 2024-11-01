@@ -1,0 +1,10 @@
+name: "Compensación Excesiva"
+placeholder: "%level% * 0.75"
+description: "&a%placeholder%%&8 de probabilidad de recuperar lapislázuli después de encantar"
+
+effects:
+  - id: dont_consume_lapis_chance
+    args:
+      chance: "%level% * 0.75"
+
+conditions: [ ]
