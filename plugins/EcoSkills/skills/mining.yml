@@ -228,6 +228,7 @@ xp-gain-methods:
       blocks:
         - gilded_blackstone
         - diamond_ore
+        - obsidian
 
   - trigger: mine_block
     multiplier: 10.5
