@@ -16,7 +16,7 @@ storage:
 
 settings:
   # Min/max must be between 0 and 9,223,372,036,854,775,808
-  minimum-bet: 10
+  minimum-bet: 1
   maximum-bet: 1000000000000
 
   # Aliases to the '/coinflip' command
