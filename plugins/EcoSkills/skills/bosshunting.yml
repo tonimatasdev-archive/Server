@@ -150,13 +150,13 @@ xp-gain-methods:
   - trigger: kill
     multiplier: 0.33
     filters:
-      mobs:
+      entities:
         - ender_dragon
 
   - trigger: kill
     multiplier: 0.5
     filters:
-      mobs:
+      entities:
         - wither
         - warden
 
