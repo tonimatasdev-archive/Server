@@ -21,8 +21,8 @@ gui:
     - "&f"
 
   position:
-    row: 3
-    column: 3
+    row: 4
+    column: 5
 
 hide-before-level-1: true # If this skill should be hidden before level 1
 
