@@ -1,0 +1,51 @@
+messages:
+  roulette:
+    chat:
+      wait-until-next-round: "&c¡No puedes apostar ahora! &7Por favor, espera hasta la siguiente ronda."
+      do-not-stand-on-table: "&c¡Por favor, no te subas a la mesa!"
+      total-bets: "&7Hay un total de &e%bets% &7apuestas en esta ronda con un valor de &e%worth% monedas&7."
+      win: "&a¡Felicidades! &b¡Ganaste &e%amount% monedas&b!"
+      lose: "&c¡Desafortunadamente, perdiste!"
+      broadcast: "&aFelicitaciones a &e%player% &aquien acaba de ganar &e%amount% monedas &aen el casino!"
+      enter-bet: "&ePor favor ingresa la cantidad que deseas apostar. &c¡Haz clic aquí para cancelar!"
+      minimum-bet-reached-per-entry: "&cDebes apostar al menos %amount% cada vez."
+      maximum-bet-reached-per-round: "&cSolo puedes apostar %amount% a la vez."
+      maximum-bets-reached-per-round: "&cNo puedes hacer más apuestas en esta ronda."
+      maximum-bets-reached-per-day: "&cPara evitar la adicción al juego, no puedes apostar más veces en este día."
+      invalid-amount: "&cNo ingresaste una cantidad válida. Si deseas cancelar, ¡haz clic aquí!"
+      insufficient-money: "&cTe faltan &e%amount% monedas &cpara apostar esa cantidad."
+      bet-placed: "&aApostaste &e%amount% monedas &aen &e%bet%&a! Si ganas obtendrás &d%multiplier%\u00D7 &atu apuesta."
+      bet-canceled: "&c¡Cancelaste tu apuesta!"
+
+    title:
+      win:
+        header: "&aFelicidades"
+        sub: "&b¡Ganaste &e%amount% monedas&b!"
+      lose:
+        header: " "
+        sub: "&c¡Mejor suerte la próxima vez!"
+
+    hologram:
+      waiting:
+        - "&b&lCasino"
+        - ""
+        - "&7Haz clic derecho en la rueda"
+        - "&7para hacer una apuesta!"
+        - ""
+        - "&eEsperando jugadores..."
+      starting:
+        - "&b&lCasino"
+        - ""
+        - "&7Haz clic derecho en la rueda"
+        - "&7para hacer una apuesta!"
+        - ""
+        - "&eGirando en &d%time% &esegundos!"
+      rolling:
+        - "&b&lCasino"
+        - ""
+        - "&a¡Buena suerte a todos!"
+      ending:
+        - "&b&lCasino"
+        - ""
+        - "&eEl número ganador es"
+        - "&d%number%"

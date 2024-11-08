@@ -1,0 +1,30 @@
+sounds:
+  roulette:
+    bet-placed:
+      sound: BLOCK_NOTE_BLOCK_BELL
+      volume: 0.5
+      pitch: 1.0
+    start:
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 1.0
+      pitch: 2.0
+    start-rolling:
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 1.0
+      pitch: 1.0
+    slowing-down:
+      sound: BLOCK_LEVER_CLICK
+      volume: 0.1
+      pitch: 2.0
+    stop:
+      sound: ENTITY_PLAYER_LEVELUP
+      volume: 1.0
+      pitch: 2.0
+    win:
+      sound: UI_TOAST_CHALLENGE_COMPLETE
+      volume: 0.5
+      pitch: 1.0
+    lose:
+      sound: ENTITY_VILLAGER_NO
+      volume: 0.5
+      pitch: 1.0

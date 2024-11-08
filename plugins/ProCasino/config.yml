@@ -1,0 +1,79 @@
+#  _____            _____          _
+# |  __ \          / ____|        (_)
+# | |__) | __ ___ | |     __ _ ___ _ _ __   ___
+# |  ___/ '__/ _ \| |    / _` / __| | '_ \ / _ \
+# | |   | | | (_) | |___| (_| \__ \ | | | | (_) |
+# |_|   |_|  \___/ \_____\__,_|___/_|_| |_|\___/  COPYRIGHT ©
+#
+# Please read our wiki for further explanations: https://github.com/File14/ProCasino/wiki
+
+storage:
+  # Types: SQLITE or MYSQL.
+  type: SQLITE
+
+  mysql:
+    host: localhost
+    port: 3306
+    database: ProCasino
+    table: procasino
+    user: root
+    password: "password"
+    properties: "autoReconnect=true&useSSL=false"
+
+  sqlite:
+    database: procasino
+    table: procasino
+
+economy:
+  # Types: VAULT or CUSTOM (hooked via plugin API)
+  type: VAULT
+
+roulette:
+  inventory:
+    title: "&f七七七七七七七七ヾ"
+
+  # Profits above this value will be broadcasted to all players on the server.
+  broadcast-win-amount: 5000
+
+  starting-time: 30
+  knockback-when-too-close: true
+
+  # Whenever or not to set color to the text of the spinning blocks.
+  color-numbers:
+    enable: true
+    green: "&a"
+    red: "&c"
+    black: "&7"
+
+  # These settings are designed to combat game addiction.
+  max-bets-per-day: 9999999
+  max-bets-per-round: 2
+  min-bet-amount-per-entry: 1
+  max-bet-amount-per-round: 1000000
+
+  multipliers:
+    color: 1.5
+    coloum: 2.0
+    number: 10.0
+
+age-confirmation:
+  enable: true
+  inventory:
+    title: "Confirmación de edad"
+    size: 27
+
+settings:
+  # This feature allows you to check for updates when the plugin is starting.
+  check-updates: true
+
+  # This feature allows you to enable or disable sending statistics. Please keep this enabled.
+  enable-metrics: true
+
+  # Fills empty inventories.
+  fill-empty-slots: true
+
+  # This feature allows you to log all wins/losses to create statistics.
+  log-bets: false
+
+# Do not edit this!
+config-version: 1

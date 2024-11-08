@@ -1,0 +1,125 @@
+items:
+  fill-empty-slots:
+    material: PAPER
+    amount: 1
+    custom-model-data: 200
+    displayname: "&f"
+    lore: []
+
+  roulette:
+    column-1:
+      material: PAPER
+      amount: 1
+      custom-model-data: 200
+      displayname: "&eColumn 1"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    column-2:
+      material: PAPER
+      amount: 1
+      custom-model-data: 200
+      displayname: "&eColumn 2"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    column-3:
+      material: PAPER
+      amount: 1
+      custom-model-data: 200
+      displayname: "&eColumn 3"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    green-color:
+      material: LIME_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&aGreen"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    red-color:
+      material: RED_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&cRed"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    black-color:
+      material: BLACK_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&8Black"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    red-number:
+      material: RED_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&e%number%"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    black-number:
+      material: BLACK_CONCRETE
+      amount: 1
+      custom-model-data: 0
+      displayname: "&e%number%"
+      lore:
+        - "&7Chance to &a%multiplier%\u00D7 &7your bet."
+        - ""
+        - "&eClick here to place a bet!"
+    statistics:
+      material: PAPER
+      amount: 1
+      slot: 53
+      custom-model-data: 201
+      displayname: "&aYour Statistics"
+      lore:
+        - ""
+        - "&7Total Bets: &e%bets%"
+        - "&7Wins: &e%wins%"
+        - "&7Losses: &e%losses%"
+        - "&7Spent: &e%spent% coins"
+        - "&7Profit: &e%profit% coins"
+        - "&7Lost: &e%lost% coins"
+
+  age-confirmation:
+    information:
+      material: PAPER
+      amount: 1
+      slot: 13
+      custom-model-data: 0
+      displayname: "&aAge Confirmation"
+      lore:
+        - ""
+        - "&eWe require users to be of legal age"
+        - "&eto play. Please confirm your age."
+    accept:
+      material: LIME_CONCRETE
+      amount: 1
+      slot: 15
+      custom-model-data: 0
+      displayname: "§aConfirm"
+      lore:
+        - ""
+        - "&eClick here to confirm!"
+    deny:
+      material: RED_CONCRETE
+      amount: 1
+      slot: 11
+      custom-model-data: 0
+      displayname: "§cCancel"
+      lore:
+        - ""
+        - "&eClick here to cancel!"
