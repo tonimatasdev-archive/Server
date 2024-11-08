@@ -12,7 +12,7 @@ description: Kill bosses to earn xp
 gui:
   enabled: true # (Optional) If this skill should be shown in the GUI
 
-  icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmIxYzI2OGVmZWM4ZDdkODhhMWNiODhjMmJmYTA5N2ZhNTcwMzc5NDIyOTlmN2QyMDIxNTlmYzkzY2QzMDM2ZCJ9fX0=
+  icon: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1YWQ0MTU0NDRkOTYyYmRhZGVkNDIyYjhkYTkwZDVlYTQ0YzE2ZjBiY2Y3MzI5MTE1YWRmOGNjYzVlNDJhMCJ9fX0=
 
   lore:
     - "&fImproves Stats:"
